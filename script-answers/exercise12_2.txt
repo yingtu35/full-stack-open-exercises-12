@@ -1,0 +1,10 @@
+Script started on 2023-07-11 16:09:52+08:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="120" LINES="30"]
+]0;daniel860305@DESKTOP-1KUDH6G: /mnt/c/Users/danie/full-stack-open-containers-applications[01;32mdaniel860305@DESKTOP-1KUDH6G[00m:[01;34m/mnt/c/Users/danie/full-stack-open-containers-applications[00m$ docker run -it uvuntu[K[K[K[K[Kbuntu bash
+[?2004h]0;root@f3bbda410dd3: /root@f3bbda410dd3:/# mkdir -p usr/src/app
+[?2004l[?2004h]0;root@f3bbda410dd3: /root@f3bbda410dd3:/# touch usr/src/app/index.js
+[?2004l[?2004h]0;root@f3bbda410dd3: /root@f3bbda410dd3:/# [Kls usr/    -l usr/src/app                 exit
+[?2004lexit
+]0;daniel860305@DESKTOP-1KUDH6G: /mnt/c/Users/danie/full-stack-open-containers-applications[01;32mdaniel860305@DESKTOP-1KUDH6G[00m:[01;34m/mnt/c/Users/danie/full-stack-open-containers-applications[00m$ exit
+exit
+
+Script done on 2023-07-11 16:13:34+08:00 [COMMAND_EXIT_CODE="0"]

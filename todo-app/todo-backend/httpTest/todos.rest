@@ -1,0 +1,25 @@
+###
+GET http://localhost:3000/todos
+
+###
+POST http://localhost:3000/todos
+Content-Type: application/json
+
+{
+  "text": "creating a new todo"
+}
+
+###
+GET http://localhost:3000/todos/64b23977b22cd2a749b890ea
+
+###
+DELETE http://localhost:3000/todos/64b23a21d074d034f7c2edb2
+
+###
+PUT http://localhost:3000/todos/64b23977b22cd2a749b890ea
+Content-Type: application/json
+
+{
+  "text": "Read code",
+  "done": true
+}
