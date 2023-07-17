@@ -40,6 +40,9 @@ services:
     image: nginx
     ports:
       - 8080:80
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    container_name: reverse-proxy-prod
     depends_on:
       - app
       - server
