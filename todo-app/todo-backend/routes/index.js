@@ -15,4 +15,8 @@ router.get('/', async (req, res) => {
   });
 });
 
+router.get('/health', (req, res) => {
+  res.send('ok')
+})
+
 module.exports = router;
